@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> list </title>
+</head>
+<body>
+    {% for x in list %}
+        <ul>
+            <li>
+                <h1>{{x.title}}</h1>
+            </li>
+            <li>
+                <p>{{x.content}}</p>
+            </li>
+        </ul><br>
+    {% endfor %}
+</body>
+</html>
